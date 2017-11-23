@@ -4,8 +4,6 @@ import { HttpModule } from '@angular/http';
 import { FormsModule } from '@angular/forms';
 import { AppRoutingModule } from './app-routing.module';
 import { AppComponent } from './app.component';
-import { AdminComponent } from './admin/admin.component';
-import { HomeComponent } from './home/home.component';
 import { AdminService } from './admin.service';
 import { NgxPopperModule } from 'ngx-popper';
 import { NgbModule } from '@ng-bootstrap/ng-bootstrap';
@@ -15,8 +13,6 @@ import { NgbModule } from '@ng-bootstrap/ng-bootstrap';
 @NgModule({
   declarations: [
     AppComponent,
-    AdminComponent,
-    HomeComponent
   ],
   imports: [
     BrowserModule,
