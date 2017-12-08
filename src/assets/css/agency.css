@@ -184,8 +184,9 @@ header.masthead {
   #portfolio .portfolio-item .portfolio-link {
     position: relative;
     display: block;
-    max-width: 400px;
-    margin: 0 auto;
+    max-width: 360px;
+    max-height: 240px;
+    /* margin: 0 auto; */
     cursor: pointer; }
     #portfolio .portfolio-item .portfolio-link .portfolio-hover {
       position: absolute;
